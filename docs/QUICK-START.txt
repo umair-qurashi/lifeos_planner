@@ -1,0 +1,30 @@
+LIFEOS PLANNER — QUICK START
+
+1. Extract the ZIP folder.
+2. Open index.html in Chrome or Edge.
+3. Choose a name, theme, language, currency, text size and layout spacing under Settings & Backup. The recommended text size is Extra large. Language changes the app interface across all modules; personal notes and other text you enter remain exactly as written.
+4. Add tasks, habits, calendar events and other entries from each module.
+5. Export a JSON backup regularly from Settings & Backup.
+6. To move devices, open LifeOS on the new device and import the JSON backup.
+7. Use the top toolbar color dots to switch themes quickly, or open Settings & Backup for more display options.
+
+Privacy: entries and photos stay in this browser profile. There is no cloud sync.
+
+To create a PDF of the current screen, use Print / Save as PDF and choose Save as PDF in the browser print dialog.
+
+Profile photo: Settings & Backup > Profile > Upload profile photo. The image is saved on this device and included in JSON backups.
+Themes: choose Blush, Latte, Sage, Lilac, Cherry or Dark Mode. Theme colors update the entire interface.
+Mobile: extract the ZIP first. On Android choose Open with Chrome for index.html. On iPhone/iPad, local HTML preview may show source or not run scripts; a hosted HTTPS/PWA version is recommended for reliable mobile use.
+
+
+CLIENT DELIVERY / DEVICE NOTES
+- Send the complete ZIP; never send index.html alone. Extract the ZIP before opening it.
+- Windows: double-click index.html and use Chrome or Edge.
+- Mac: Open With Safari or Chrome.
+- Android: extract and try Open with Chrome. If the file manager shows source text or styles are missing, use the HTTPS PWA link instead.
+- iPhone/iPad: use the HTTPS PWA link; the Files app HTML preview is not a reliable way to run a multi-file web app.
+- This package includes a PWA manifest and service worker. Upload the whole extracted folder to an HTTPS static host, open its URL once online, then use Install / Add to Home Screen. The app shell can then work offline.
+- Data is local per device and browser. Use Settings > Export full backup to move data to another device; there is no automatic cloud sync.
+
+DYNAMIC DASHBOARD
+The greeting follows your device clock (morning, afternoon, evening). The motivational quote changes once per local calendar day, stays the same when you refresh on that day, and is available offline in English, Spanish, French, German and Arabic.
